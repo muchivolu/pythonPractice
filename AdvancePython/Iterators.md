@@ -16,5 +16,27 @@ next(iterator)
 </code></pre>
 --> it shows one by one when we execute next to next
 
+<pre>
+   <code>
+iterator = iter(my_list)
+      try:
+        next(iterator)
+      except StopIteration:
+        print("there are no elements in the iteraror")
+   </code>
+</pre>
+
+String Iterators :
+<pre>
+   <code>
+my_string = "Hello"
+string_iterator = iter(my_string)
+print(next(string_iterator)    #H
+print(next(string_iterator)    #e
+   </code>
+</pre>
+
+
+
 
 
